@@ -1,5 +1,5 @@
 /*
- *@name                   Victoria C
+ *@name                   Victoria 
  *@description            Message box swing simulator
  *@last revised           2/21/13
  */
@@ -28,7 +28,7 @@ public class Swing extends JApplet{
        GridBagConstraints c = new GridBagConstraints(); //also controls the packing of the label into one pane
        c.insets = new Insets(10,10,10,10); //controls spacing
        
-       JLabel label0 = new JLabel("Victoria Abadua Croffie");
+       JLabel label0 = new JLabel("Victoria ");
        label0.setForeground(Color.green);
        label0.setFont(new Font("Monospaced", Font.PLAIN, 14));
        c.gridx = 0; c.gridy = 0;
@@ -46,7 +46,7 @@ public class Swing extends JApplet{
        c.gridx = 0; c.gridy = 2;
        panel.add(label2, c);
        
-       JLabel label3 = new JLabel("Victoria A. Croffie");
+       JLabel label3 = new JLabel("Victoria");
        label3.setForeground(Color.cyan);
        label3.setFont(new Font("TimesNewRoman", Font.PLAIN, 10));
        c.gridx = 0; c.gridy = 3;
